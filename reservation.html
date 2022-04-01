@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temple Inns & Suites Website">
+    <title> Temple Inns & Suites </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+            <div class="header-content">
+                <div class="logo_icon">
+                    <img class="logo" src="images/logo.webp" alt="a logo of Temple Inn & Suites">
+                    <ul class="social_links">
+                        <li>
+                            <a id="icon_1" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="60"></a>
+                        </li>
+                        <li>
+                            <a id="icon_2" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="60"></a>
+                        </li>
+                        <li>
+                            <a id="icon_3" href="https://www.instagram.com/khalid__24__/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Finstagram%20icon.png?v=1633567220450" alt="Instagram Icon" width="60"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation_div">
+                    <nav>
+                        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                        <ul id="headernav">
+                            <li><a href=" index.html">HOME</a></li>
+                            <li><a href="temple.html">TEMPLE</a></li>
+                            <li><a href="reservation.html">RESERVATION</a></li>
+                            <li><a href="services.html">SERVICES</a></li>
+                        </ul>
+                    </nav>
+                    <script src="js/menu.js"></script>
+                </div>
+            </div>
+        </header>
+        <main class="contact_main">
+            <h1 class="contact_header"> Make a Reservation at the Temple Inn & Suites </h1>
+            <p class="contact_paragraph"> Please complete the form below to make your reservation.</p>
+            <form method="get" action="thank_you.html">
+                <fieldset id="busform">
+                    <legend class="contact">
+                        Contact Information
+                    </legend>
+                    <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
+                    <h4 class="into">First Name* </h4> <input class="text_1" type="text" name="fname" placeholder="James" required>
+                    <h4 class="into">Last Name*</h4> <input class="text_2" type="text" name="lname" placeholder="Spader" required>
+                    <h4 class="into">Email*</h4><input class="email" type="email" name="email" placeholder="myemail@gmail.com" required>
+                    <h4 class="into">Cell Phone*</h4><input class="tel" type="tel" name="phone" placeholder="+2349077771659" required>
+                    <h4 class="into">Date Available*</h4> <input class="text_3" type="text" name="date" placeholder="20-25th of October, 2022" required>
+                    <h4 class="into">No of Rooms*</h4> <input class="text_4" type="text" name="no of rooms" placeholder="Four Rooms" required>
+                    <h4 class="into">Type of Room*</h4> <input class="text_5" type="text" name="type of room" placeholder="Super Deluxe" required>
+                    <h4 class="into">Location </h4> <input class="text_6" type="text" name="location" placeholder="Atlanta" required>
+                    <h4 class="into">State/Country </h4> <input class="text_7" type="text" name="state/country" placeholder="Utah" required>
+                    <h4 class="into">Special Accommodations or Comments</h4><textarea id="description" name="description" rows="6" cols="70" placeholder="special accommodation or comment"></textarea>
+
+                </fieldset>
+
+                <div class="center">
+                    <input class="submitBtn" type="submit" value="Make Your Reservation">
+                    <input type="hidden" id="current_date">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <div id="footer_address">
+                <h2 id="a">The Temple Inn & Suites</h2>
+                <h3 id="b">4840 Montgomery, Ln #320 Bethesda, MD 20814</h3>
+                <h3 id="c">info@templeinn-suites.org</h3>
+                <h3 id="d">(+234) 90-777-1659</h3>
+            </div>
+            <div id="footer_info">
+                <img id="footer_logo" class="logo" src="images/logo.webp " alt="a logo of Temple Inn & Suites " width="180 " height="180 ">
+                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3101.41647435577!2d-77.0998123!3d38.9829903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c8fab2e17%3A0xee511a20c1d4bf68!2s4840%20Montgomery%20Ln%20%23320%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sng!4v1648255271901!5m2!1sen!2sng "
+                    width="400 " height="250 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                <ul id="social_links" class="social_links">
+                    <li>
+                        <a id="icon_4" href="https://web.facebook.com/victoroluwapelumi.elerunndu "><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959 " alt="Facebook Icon " width="40 "></a>
+                    </li>
+                    <li>
+                        <a id="icon_5" href="https://mobile.twitter.com/K_h_a_l_i_D___/ "><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302 " alt="Twitter Icon " width="40 "></a>
+                    </li>
+                    <li>
+                        <a id="icon_6" href="https://www.instagram.com/khalid__24__/ "><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Finstagram%20icon.png?v=1633567220450 " alt="Instagram Icon " width="40 "></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="footer_bottom">
+                <a id="footerlink_1" href="https://goo.gl/maps/8jA6hnA1fk7M21oe8">Location Map</a>
+                <a id="footerlink_2" href="contact_us.html"> Contact Us Form</a>
+                <p id="footerlink_3">&copy;<span id="year ">2022</span> The Temple Inn & Suites </p>
+            </div>
+            <hr id="footer_line">
+            <section id="footer_last">
+                <p id="last_modified">Last Modified: <span id="lastModified "></span>
+                    <script>
+                        const d = new Date();
+                        document.getElementById("lastModified ").innerHTML = d;
+                    </script>
+                </p>
+            </section>
+        </footer>
+    </div>
+
+</body>
+
+</html>

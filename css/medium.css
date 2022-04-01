@@ -1,0 +1,108 @@
+    @media (min-width:37.5em) {
+        header {
+            background-image: url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg");
+            width: 800px;
+        }
+        #headernav li a {
+            color: #EEF4D4;
+            display: block;
+            padding: .8rem 2vw;
+            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            margin-right: 10px;
+            margin-bottom: 1px;
+            min-height: 20px;
+            align-items: center;
+            justify-content: center;
+            font-family: dongle;
+            font-size: 45px;
+            font-weight: 500;
+        }
+        nav button {
+            margin: .2rem 2vw;
+            background-color: #fff;
+            border: 1px solid #555;
+            font-size: 2.5rem;
+            border-radius: 10px;
+        }
+        .logo {
+            border-radius: 100px;
+            width: 150px;
+            height: 150px;
+            margin-left: 190px;
+            margin-top: 10px;
+        }
+        ul li a img {
+            border-radius: 40px;
+            height: 78px;
+            width: 78px;
+        }
+        nav button {
+            margin-left: 25px;
+            margin-top: 1px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            border: 1px solid #555;
+            font-size: 3.5rem;
+            border-radius: 10px;
+        }
+        .social_links {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin-left: 355px;
+            margin-bottom: -75px;
+        }
+        #icon_1,
+        #icon_2,
+        #icon_3 {
+            padding: 20px;
+            padding-bottom: 1px;
+        }
+        footer {
+            background-image: url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg");
+            width: 800px;
+        }
+        #footer_logo {
+            margin-left: 60px;
+            margin-bottom: 40px;
+        }
+        #icon_4,
+        #icon_5,
+        #icon_6 {
+            margin: 5px;
+            margin-left: 120px;
+        }
+        #icon_4 {
+            margin: 5px;
+            margin-left: 80px;
+        }
+        #social_links {
+            margin-left: 1px;
+        }
+        /*------ For Contact Us and Reservation Page ------*/
+        .text,
+        .tel,
+        .email,
+        .url,
+        .text_1,
+        .text_2,
+        .text_3,
+        .text_4,
+        .text_5,
+        .text_6,
+        .text_7 {
+            border-radius: 10px;
+            width: 300px;
+        }
+        #description {
+            width: 600px;
+            border-radius: 10px;
+        }
+        .submitBtn {
+            margin-left: 280px;
+        }
+        .contact_main {
+            width: 800px;
+        }
+    }

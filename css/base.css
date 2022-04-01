@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fruktur&family=Libre+Baskerville:wght@700&display=swap');
+.content {
+    max-width: 100%;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.social_links {
+    list-style-type: none;
+}
+
+.logo {
+    border-radius: 100px;
+    background-color: grey;
+    width: 120px;
+    height: 120px;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+ul li a img {
+    border-radius: 35px;
+}
+
+#headernav li a {
+    color: #EEF4D4;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-right: 10px;
+    margin-bottom: 1px;
+    min-height: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: dongle;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#headernav li a:hover {
+    background-color: #498BA6;
+    color: rgb(13, 68, 65);
+}
+
+nav button {
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #555;
+    font-size: 2.8rem;
+    border-radius: 10px;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 200px;
+    margin-bottom: -62px;
+}
+
+#icon_1,
+#icon_2,
+#icon_3 {
+    padding: 20px;
+    padding-bottom: 1px;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    flex: 1 1 auto;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+header {
+    background-image: url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg");
+    width: 557px;
+}
+
+footer {
+    background-image: url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg");
+    width: 557px;
+    font-family: dongle;
+    font-size: 28px;
+    font-weight: 100;
+    color: #EEF4D4;
+}
+
+#footer_address {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#a,
+#b,
+#c,
+#d {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.google_map {
+    margin-left: 70px;
+}
+
+#icon_4,
+#icon_5,
+#icon_6 {
+    margin: 35px;
+}
+
+#social_links {
+    margin-left: 50px;
+}
+
+#footer_logo {
+    margin-left: 215px;
+}
+
+#footer_bottom {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#footerlink_3 {
+    margin: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#footerlink_1,
+#footerlink_2 {
+    margin: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: #EEF4D4;
+}
+
+#footerlink_2:hover {
+    color: #20A39E;
+}
+
+#footerlink_1:hover {
+    color: #20A39E;
+}
+
+#last_modified {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#thankspage {
+    font-family: dongle;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/*------ For Contact Us and Reservation Page ------*/
+
+.contact_header {
+    font-family: dongle;
+    font-weight: 900;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact_paragraph {
+    font-family: dongle;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+}
+
+#busform {
+    font-family: dongle;
+    font-family: 300;
+    font-size: 34px;
+}
+
+.contact {
+    font-weight: 600;
+}
+
+.submitBtn {
+    color: #EEF4D4;
+    background-color: rgb(13, 68, 65);
+    font-size: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 170px;
+}
+
+.text,
+.tel,
+.email,
+.url,
+.text_1,
+.text_2,
+.text_3,
+.text_4,
+.text_5,
+.text_6,
+.text_7 {
+    border-radius: 10px;
+    width: 300px;
+}
+
+#description {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.contact_main {
+    width: 540px;
+}
