@@ -145,18 +145,65 @@
      .tel,
      .email,
      .url,
-     .text_1,
-     .text_2,
-     .text_3,
-     .text_4,
-     .text_5,
-     .text_6,
+     .fname,
+     .lname,
+     .address1,
+     .address2,
+     .city,
+     .state,
+     .zip,
      .text_7 {
          border-radius: 10px;
          width: 300px;
+         margin: 15px;
+     }
+     .lname {
+         margin-left: 77px;
+     }
+     .fname {
+         margin-left: 75px;
+     }
+     .address1 {
+         margin-left: 87px;
+     }
+     .address2 {
+         margin-left: 102px;
+     }
+     .email {
+         margin-left: 135px;
+     }
+     .tel {
+         margin-left: 87px;
+     }
+     .city {
+         margin-left: 144px;
+     }
+     .state {
+         margin-left: 25px;
+     }
+     .text_7 {
+         margin-left: 122px;
+     }
+     #StartDate,
+     #EndDate {
+         margin-bottom: 15px;
+         margin-top: 15px;
+     }
+     #StartDate {
+         margin-left: 20px;
+     }
+     #EndDate {
+         margin-left: 34px;
+     }
+     .dropdown1 {
+         margin-left: 38px;
+         margin-bottom: 15px;
+     }
+     .dropdown2 {
+         width: 562px;
      }
      #description {
-         width: 800px;
+         width: 560px;
          border-radius: 10px;
      }
      .submitBtn {
@@ -165,5 +212,54 @@
      .contact_main {
          width: 1000px;
          margin-left: 180px;
+     }
+     /*------------------ for services page--------------- */
+     .hero-image-1 {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+         margin: 20px;
+         width: 1200px;
+         height: 400px;
+     }
+     .hero-text-1 {
+         text-align: center;
+         color: #EEF4D4;
+         font-family: dongle;
+         font-size: 25px;
+     }
+     .hero-image-2 {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2372132/pexels-photo-2372132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+         margin: 20px;
+         width: 1200px;
+         height: 400px;
+     }
+     .hero-text-2 {
+         text-align: center;
+         color: #EEF4D4;
+         font-family: dongle;
+         font-size: 25px;
+     }
+     .hero-page {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         margin-top: -120px;
+         margin-bottom: 10px;
+     }
+     .button {
+         padding: 10px;
+         font-size: 35px;
+         text-decoration: none;
+         border: 1px solid grey;
+         color: black;
+         background-color: #EEF4D4;
+     }
+     .button:hover {
+         background-color: #20A39E;
+         color: #EEF4D4;
+     }
+     .services {
+         font-family: dongle;
+         font-size: 30px;
+         margin-left: 20px;
      }
  }

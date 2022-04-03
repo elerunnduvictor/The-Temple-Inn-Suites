@@ -29,7 +29,7 @@
             border-radius: 100px;
             width: 150px;
             height: 150px;
-            margin-left: 190px;
+            margin-left: 150px;
             margin-top: 10px;
         }
         ul li a img {
@@ -50,7 +50,7 @@
             display: flex;
             flex-direction: row;
             align-items: flex-end;
-            margin-left: 355px;
+            margin-left: 295px;
             margin-bottom: -75px;
         }
         #icon_1,
@@ -64,45 +64,155 @@
             width: 800px;
         }
         #footer_logo {
-            margin-left: 60px;
+            margin-left: 25px;
             margin-bottom: 40px;
+        }
+        #footer_address {
+            margin-right: 100px;
         }
         #icon_4,
         #icon_5,
         #icon_6 {
             margin: 5px;
-            margin-left: 120px;
+            margin-left: 140px;
         }
         #icon_4 {
             margin: 5px;
             margin-left: 80px;
         }
         #social_links {
-            margin-left: 1px;
+            margin-left: -90px;
+        }
+        #footer_last {
+            margin-right: 110px;
+        }
+        #footer_bottom {
+            margin-right: 64px;
+            margin-left: -50px;
         }
         /*------ For Contact Us and Reservation Page ------*/
         .text,
         .tel,
         .email,
         .url,
-        .text_1,
-        .text_2,
-        .text_3,
-        .text_4,
-        .text_5,
-        .text_6,
+        .fname,
+        .lname,
+        .address1,
+        .address2,
+        .city,
+        .state,
+        .zip,
         .text_7 {
             border-radius: 10px;
             width: 300px;
+            margin: 15px;
+        }
+        .lname {
+            margin-left: 77px;
+        }
+        .fname {
+            margin-left: 75px;
+        }
+        .address1 {
+            margin-left: 87px;
+        }
+        .address2 {
+            margin-left: 102px;
+        }
+        .email {
+            margin-left: 135px;
+        }
+        .tel {
+            margin-left: 87px;
+        }
+        .city {
+            margin-left: 144px;
+        }
+        .state {
+            margin-left: 25px;
+        }
+        .text_7 {
+            margin-left: 122px;
+        }
+        #StartDate,
+        #EndDate {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        #StartDate {
+            margin-left: 20px;
+            border: 0.5px solid grey;
+        }
+        #EndDate {
+            margin-left: 34px;
+            border: 0.5px solid grey;
+        }
+        .dropdown1 {
+            margin-left: 38px;
+            margin-bottom: 15px;
+            border: 0.5px solid grey;
+        }
+        .dropdown2 {
+            width: 562px;
+            border: 0.5px solid grey;
         }
         #description {
             width: 600px;
             border-radius: 10px;
         }
         .submitBtn {
-            margin-left: 280px;
+            margin-left: 220px;
         }
         .contact_main {
-            width: 800px;
+            width: 700px;
+        }
+        /*------------------ for services page--------------- */
+        .hero-image-1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            margin: 20px;
+            width: 720px;
+            height: 400px;
+        }
+        .hero-text-1 {
+            text-align: center;
+            color: #EEF4D4;
+            font-family: dongle;
+            font-size: 25px;
+        }
+        .hero-image-2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2372132/pexels-photo-2372132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            margin: 20px;
+            width: 720px;
+            height: 400px;
+        }
+        .hero-text-2 {
+            text-align: center;
+            color: #EEF4D4;
+            font-family: dongle;
+            font-size: 25px;
+        }
+        .hero-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        .button {
+            padding: 10px;
+            font-size: 35px;
+            text-decoration: none;
+            border: 1px solid grey;
+            color: black;
+            background-color: #EEF4D4;
+        }
+        .button:hover {
+            background-color: #20A39E;
+            color: #EEF4D4;
+        }
+        .services {
+            font-family: dongle;
+            font-size: 30px;
+            margin-left: 20px;
         }
     }

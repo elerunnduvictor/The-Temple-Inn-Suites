@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fruktur&family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fruktur&family=Libre+Baskerville:wght@700&display=swap');
 .content {
     max-width: 100%;
     align-items: center;
@@ -222,22 +223,93 @@ footer {
     text-align: center;
     padding: 5px;
     margin: 30px;
-    margin-left: 170px;
+    margin-left: 130px;
 }
 
 .text,
 .tel,
 .email,
 .url,
-.text_1,
-.text_2,
-.text_3,
-.text_4,
-.text_5,
-.text_6,
+.fname,
+.lname,
+.address1,
+.address2,
+.city,
+.state,
+.zip,
 .text_7 {
     border-radius: 10px;
     width: 300px;
+    margin: 15px;
+}
+
+.lname {
+    margin-left: 77px;
+}
+
+.fname {
+    margin-left: 75px;
+}
+
+.address1 {
+    margin-left: 87px;
+}
+
+.address2 {
+    margin-left: 102px;
+}
+
+.email {
+    margin-left: 135px;
+}
+
+.tel {
+    margin-left: 87px;
+}
+
+.city {
+    margin-left: 144px;
+}
+
+.state {
+    margin-left: 25px;
+}
+
+.text_7 {
+    margin-left: 122px;
+}
+
+#StartDate,
+#EndDate {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#StartDate {
+    margin-left: 20px;
+    border: 0.5px solid grey;
+}
+
+#EndDate {
+    margin-left: 34px;
+    border: 0.5px solid grey;
+}
+
+.dropdown1 {
+    margin-left: 38px;
+    margin-bottom: 15px;
+    border: 0.5px solid grey;
+    width: 365px;
+}
+
+.dropdown2 {
+    width: 510px;
+    border: 0.5px solid grey;
+}
+
+.dropdown3 {
+    border: 0.5px solid grey;
+    width: 530px;
 }
 
 #description {
@@ -247,4 +319,68 @@ footer {
 
 .contact_main {
     width: 540px;
+}
+
+.into {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/*------------------ for services page--------------- */
+
+.hero-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    margin: 20px;
+    width: 500px;
+    height: 450px;
+}
+
+.hero-text-1 {
+    text-align: center;
+    color: #EEF4D4;
+    font-family: dongle;
+    font-size: 25px;
+}
+
+.hero-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2372132/pexels-photo-2372132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    margin: 20px;
+    width: 500px;
+    height: 450px;
+}
+
+.hero-text-2 {
+    text-align: center;
+    color: #EEF4D4;
+    font-family: dongle;
+    font-size: 25px;
+}
+
+.hero-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    border: 1px solid grey;
+    color: black;
+    background-color: #EEF4D4;
+}
+
+.button:hover {
+    background-color: #20A39E;
+    color: #EEF4D4;
+}
+
+.services {
+    font-family: dongle;
+    font-size: 30px;
+    margin-left: 5px;
 }
