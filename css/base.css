@@ -32,7 +32,6 @@ ul li a img {
     padding: .8rem 2vw;
     text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    margin-right: 10px;
     margin-bottom: 1px;
     min-height: 20px;
     align-items: center;
@@ -383,4 +382,20 @@ footer {
     font-family: dongle;
     font-size: 30px;
     margin-left: 5px;
+}
+
+.attributions {
+    text-align: left;
+}
+
+.attributions ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#attributionpage {
+    font-family: dongle;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
 }
