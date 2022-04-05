@@ -52,23 +52,21 @@
             <form method="get" action="thank_you.html">
                 <fieldset id="busform">
                     <legend class="contact">
-                        Contact Information
+                        Reservation Information
                     </legend>
                     <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
-                    <h4 class="into">First Name* </h4> <input class="text_1" type="text" name="fname" placeholder="James" required>
-                    <h4 class="into">Last Name*</h4> <input class="text_2" type="text" name="lname" placeholder="Spader" required>
-                    <h4 class="into">Email*</h4><input class="email" type="email" name="email" placeholder="myemail@gmail.com" required>
-                    <h4 class="into">Cell Phone*</h4><input class="tel" type="tel" name="phone" placeholder="+2349077771659" required>
-                    <h4 class="into">Location </h4> <input class="text_6" type="text" name="location" placeholder="Atlanta" required>
-                    <h4 class="into">State/Country </h4> <input class="text_7" type="text" name="state/country" placeholder="Utah" required>
-                    <h4 class="into">Questions or Comments</h4><textarea id="description" name="description" rows="6" cols="70" placeholder="question or comment"></textarea>
-
+                    <label class="top">First Name * <input class="fname" type="text" name="fname" placeholder="James" required></label><br>
+                    <label class="top">Last Name * <input class="lname" type="text" name="lname"  placeholder="Spader" required></label><br>
+                    <label class="top">Address 1 * <input class="address1" type="text" name="address1"  placeholder="68 Powell St." required></label><br>
+                    <label class="top">Address 2 <input class="address2" type="text" name="address2"  placeholder="Apartment 42"></label><br>
+                    <label class="into">Email*  <input class="email" type="email" name="email" placeholder="myemail@gmail.com" required></label><br>
+                    <label class="into">Cell Phone*  <input class="tel" type="tel" name="phone" placeholder="+2349077771659" required></label><br>
+                    <label class="top">City * <input class="city" type="text" name="city"  placeholder="Rexburg" required></label><br>
+                    <label class="top">State / Province * <input class="state" type="text" name="state"  placeholder="Utah" required></label><br>
+                    <label class="top">Zip / Postal Code * <input  class="zip" type="text" name="zip"  placeholder="228200"  pattern="([(?i)^[a-z0-9][a-z0-9\- ]{0,10}[a-z0-9]$])" minlength="2" ></label><br>
+                    <label class="into">Country <input class="text_7" type="text" name="state/country" placeholder="United States" required></label><br>
+                    <h4 class="into">Questions or Comments</h4><textarea id="description" name="description" rows="6" cols="70" placeholder="Question or Comment"></textarea>
                 </fieldset>
-
-                <div class="center">
-                    <input class="submitBtn" type="submit" value="Contact Us">
-                    <input type="hidden" id="current_date">
-                </div>
             </form>
         </main>
 

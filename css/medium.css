@@ -232,45 +232,47 @@
             margin-bottom: 50px;
         }
         .directoryhead {
-            font-size: 60px;
+            font-size: 80px;
+            margin-top: 20px;
+            font-family: dongle;
         }
         #cardbutton {
             width: 50px;
             height: 50px;
-            background-color: #d3e2e9;
-            border-radius: 5px;
+            background-color: #EEF4D4;
+            border-radius: 10px;
             margin-right: 10px;
         }
         #cardbutton:hover {
-            background-color: rgb(11, 53, 116);
+            background-color: rgb(13, 68, 65);
         }
         #listbutton {
             width: 50px;
             height: 50px;
-            background-color: #d3e2e9;
-            border-radius: 5px;
+            background-color: #EEF4D4;
+            border-radius: 10px;
         }
         #listbutton:hover {
-            background-color: rgb(11, 53, 116);
+            background-color: rgb(13, 68, 65);
         }
         .cardview {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
             grid-gap: 10px;
         }
         .cardview section {
             font-family: dongle;
-            color: #EDFFEC;
+            color: #EEF4D4;
             font-size: 30px;
-            background-color: #0D1321;
+            background-color: #498BA6;
             border: 2px solid grey;
             border-radius: 10px;
             margin-top: 10px;
             height: 650px;
         }
         .cardview section:hover {
-            background-color: rgb(10, 33, 68);
+            background-color: rgb(13, 68, 65);
         }
         .cardview section img {
             margin-top: 35px;
@@ -285,7 +287,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin: auto;
             margin-top: 0px;
             margin-bottom: 0px;
         }
@@ -302,24 +303,24 @@
             display: none;
         }
         .listview section p1 {
-            font-size: 22px;
-            font-weight: 700;
+            font-size: 25px;
+            font-weight: 900;
             display: block;
         }
         .listview section p2 {
-            font-size: 25px;
+            font-size: 28px;
             font-weight: 500;
         }
         .listview section p3 {
             font-size: 26px;
-            font-weight: 700;
+            font-weight: 900;
         }
         .listview section p4 {
-            font-size: 25px;
+            font-size: 26px;
             font-weight: 500;
         }
         .listview section p6 {
-            font-size: 26px;
+            font-size: 25px;
             font-weight: 500;
             padding-right: 5px;
         }
@@ -327,8 +328,8 @@
             padding-left: 5px;
         }
         .listview section:nth-of-type(odd) {
-            background-color: #cbccc7;
-            width: 750px;
+            background-color: #EEF4D4;
+            width: 100%;
             border-radius: 10px;
         }
     }

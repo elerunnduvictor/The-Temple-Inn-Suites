@@ -29,7 +29,6 @@ function displayDirectories(directory) {
     p1.innerHTML = `${directory.address} <br> ${directory.phone} <br> ${directory.email} <br>`;
     p2.innerHTML = `${directory.services} <br>`;
     p3.innerHTML = `${directory.ordinanceschedule} <br>`;
-    p4.innerHTML = `${directory.sessionschedule} <br>`;
     p5.innerHTML = `${directory.templeclosureschedule} <br>`;
     p6.innerHTML = `${directory.history} <br>`;
 
