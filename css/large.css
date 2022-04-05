@@ -270,12 +270,12 @@
      }
      #switchview {
          margin-bottom: 50px;
-         margin-right: 180px;
+         margin-right: 220px;
      }
      .directoryhead {
          font-size: 80px;
          margin-top: -100px;
-         margin-right: 120px;
+         margin-right: 210px;
      }
      #cardbutton {
          width: 50px;
@@ -306,7 +306,7 @@
          font-family: dongle;
          color: #EEF4D4;
          font-size: 30px;
-         background-color: #498BA6;
+         background-color: rgb(13, 68, 65);
          border: 2px solid grey;
          border-radius: 10px;
          margin-top: 10px;
@@ -314,7 +314,7 @@
          width: 650px;
      }
      .cardview section:hover {
-         background-color: rgb(13, 68, 65);
+         background-color: #498BA6;
      }
      .cardview section img {
          margin-top: 35px;

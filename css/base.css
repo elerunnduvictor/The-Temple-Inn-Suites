@@ -411,13 +411,13 @@ footer {
 
 #switchview {
     margin-bottom: 50px;
-    margin-left: 210px;
+    margin-left: 200px;
 }
 
 .directoryhead {
     font-size: 80px;
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: 200px;
     font-family: dongle;
     text-align: center;
 }
@@ -512,9 +512,7 @@ body>main>div>section:nth-child(3) {
 }
 
 .listview section p2 {
-    font-size: 25px;
-    font-weight: 900;
-    display: block;
+    display: none;
 }
 
 .listview section p3 {

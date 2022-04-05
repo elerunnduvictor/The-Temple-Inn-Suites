@@ -230,11 +230,13 @@
         }
         #switchview {
             margin-bottom: 50px;
+            margin-right: 160px;
         }
         .directoryhead {
             font-size: 80px;
             margin-top: 20px;
             font-family: dongle;
+            margin-right: 170px;
         }
         #cardbutton {
             width: 50px;
@@ -329,7 +331,12 @@
         }
         .listview section:nth-of-type(odd) {
             background-color: #EEF4D4;
-            width: 100%;
             border-radius: 10px;
+            width: 100%;
+        }
+        .listview section:nth-of-type(even) {
+            background-color: white;
+            border-radius: 10px;
+            width: 100%;
         }
     }
