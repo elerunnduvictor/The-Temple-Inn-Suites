@@ -1,4 +1,4 @@
-const requestURL = "https://Khalid2424.github.io/chamber/data/data.json";
+const requestURL = "https://Khalid2424.github.io/The-Temple-Inn-Suites/data/data.json";
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -26,7 +26,7 @@ function displayDirectories(directory) {
 
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = directory.name;
-    p1.innerHTML = `${directory.address} ${directory.phone}, ${directory.email} <br>`,
+    p1.innerHTML = `${directory.address} <br> ${directory.phone}, <br> ${directory.email} <br>`,
         p2.innerHTML = `${directory.services} <br>`;
     p3.innerHTML = `${directory.ordinanceschedule} <br>`;
     p4.innerHTML = `${directory.sessionschedule} <br>`;
