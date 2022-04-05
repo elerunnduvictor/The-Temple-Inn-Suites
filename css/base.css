@@ -406,7 +406,7 @@ footer {
 .directory_main {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    font-family: dongle;
 }
 
 #switchview {
@@ -414,42 +414,42 @@ footer {
 }
 
 .directoryhead {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 #cardbutton {
     width: 50px;
     height: 50px;
-    background-color: #d3e2e9;
+    background-color: #EEF4D4;
     border-radius: 5px;
     margin-right: 10px;
 }
 
 #cardbutton:hover {
-    background-color: rgb(11, 53, 116);
+    background-color: rgb(13, 68, 65);
 }
 
 #listbutton {
     width: 50px;
     height: 50px;
-    background-color: #d3e2e9;
+    background-color: #EEF4D4;
     border-radius: 5px;
 }
 
 #listbutton:hover {
-    background-color: rgb(11, 53, 116);
+    background-color: rgb(13, 68, 65);
 }
 
 .cardview {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
 .cardview section {
     font-family: dongle;
-    color: #EDFFEC;
+    color: #EEF4D4;
     font-size: 35px;
     background-color: #0D1321;
     border: 2px solid grey;
@@ -478,16 +478,17 @@ footer {
     font-family: dongle;
 }
 
-.listview section p2 {
-    display: none;
-}
-
 .listview section p5 {
     display: none;
 }
 
 .listview img,
 section p4 {
+    display: none;
+}
+
+.listview img,
+section p3 {
     display: none;
 }
 
@@ -521,36 +522,15 @@ section p5 {
 
 .listview section p2 {
     font-size: 28px;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.listview section p3 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.listview section p4 {
-    font-size: 26px;
-    font-weight: 500;
+    font-weight: 800;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 .listview section p6 {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 800;
     padding-right: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.listview section p7 {
-    font-size: 26px;
-    font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -560,7 +540,7 @@ section p5 {
 }
 
 .listview section:nth-of-type(odd) {
-    background-color: #cbccc7;
-    width: 350px;
+    background-color: #EEF4D4;
+    width: 100%;
     border-radius: 10px;
 }
