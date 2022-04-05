@@ -26,12 +26,12 @@ function displayDirectories(directory) {
 
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = directory.name;
-    p1.innerHTML = `${directory.address} <br> ${directory.phone}, <br> ${directory.email} <br>`,
-        p2.innerHTML = `${directory.services} <br>`;
+    p1.innerHTML = `${directory.address} <br> ${directory.phone} <br> ${directory.email} <br>`;
+    p2.innerHTML = `${directory.services} <br>`;
     p3.innerHTML = `${directory.ordinanceschedule} <br>`;
     p4.innerHTML = `${directory.sessionschedule} <br>`;
-    p5.innerHTML = `<strong>Type: </strong>${directory.templeclosureschedule} <br>`;
-    p6.innerHTML = `<strong>Opened:</strong> ${directory.history} <br>`;
+    p5.innerHTML = `${directory.templeclosureschedule} <br>`;
+    p6.innerHTML = `${directory.history} <br>`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', directory.imageurl);
