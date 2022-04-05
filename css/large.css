@@ -300,7 +300,7 @@
          display: grid;
          grid-template-columns: 1fr 1fr;
          grid-template-rows: 1fr 1fr 1fr;
-         grid-gap: 10px;
+         grid-gap: 0px;
      }
      .cardview section {
          font-family: dongle;
@@ -320,7 +320,6 @@
          margin-top: 35px;
          width: 600px;
          height: 350px;
-         margin-right: 30px;
      }
      /* ---- for LIST View ---- */
      .listview section p5 {
