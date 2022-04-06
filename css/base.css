@@ -534,3 +534,96 @@ body>main>div>section:nth-child(3) {
     width: 550px;
     border-radius: 10px;
 }
+
+
+/* ---- FOR RECEPTION PAGE ---- */
+
+.receptionpage {
+    font-family: dongle;
+    font-size: 27px;
+}
+
+#receptionheader {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.venuecontent,
+.cateringcontent {
+    margin-left: 25px;
+}
+
+#contactp {
+    margin-left: 25px;
+}
+
+.receptionpics {
+    display: flex;
+    flex-direction: column;
+}
+
+.cateringpics {
+    display: flex;
+    flex-direction: column;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    width: 480px;
+    height: 280px;
+}
+
+.image1[data-src] {
+    filter: blur(0.5em);
+}
+
+.image1 {
+    filter: blur(0em);
+    transition: filter 3s;
+}
+
+.image1:hover {
+    filter: invert(20%);
+}
+
+.image2[data-src] {
+    filter: blur(0.5em);
+}
+
+.image2 {
+    filter: blur(0em);
+    transition: filter 3s;
+}
+
+.image2:hover {
+    filter: invert(20%);
+}
+
+.image3[data-src] {
+    filter: blur(0.5em);
+}
+
+.image3 {
+    filter: blur(0em);
+    transition: filter 3s;
+}
+
+.image3:hover {
+    filter: invert(20%);
+}
+
+.image4[data-src] {
+    filter: blur(0.5em);
+}
+
+.image4 {
+    filter: blur(0em);
+    transition: filter 3s;
+}
+
+.image4:hover {
+    filter: invert(20%);
+}
