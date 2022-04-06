@@ -367,7 +367,17 @@
         .image2,
         .image3,
         .image4 {
-            width: 730px;
-            height: 530px;
+            width: 700px;
+            height: 480px;
+        }
+        /* ---- FOR TEMPLE MISSIONARY PAGE ---- */
+        .missionarypage {
+            font-family: dongle;
+            font-size: 30px;
+        }
+        .missionarypics {
+            display: flex;
+            flex-direction: column;
+            margin-left: 43px;
         }
     }

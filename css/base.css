@@ -632,3 +632,17 @@ body>main>div>section:nth-child(3) {
 .image4:hover {
     filter: invert(20%);
 }
+
+
+/* ---- FOR TEMPLE MISSIONARY PAGE ---- */
+
+.missionarypage {
+    font-family: dongle;
+    font-size: 30px;
+}
+
+.missionarypics {
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+}
