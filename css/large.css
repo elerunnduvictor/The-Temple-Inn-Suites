@@ -420,4 +420,56 @@
          grid-template-columns: 1fr 1fr;
          margin-left: 50px;
      }
+     /* ---- FOR TEMPLE HOME PAGE ---- */
+     .homeheadline {
+         font-family: dongle;
+         font-size: 30px;
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/800x500/brigham-city-temple-lds-1027480-wallpaper.jpg");
+         width: 1330px;
+         height: 400px;
+         margin-top: -120px;
+         margin-left: 10px;
+         text-align: center;
+     }
+     .headline {
+         color: #EEF4D4;
+         margin-left: 70px;
+         margin-right: 70px;
+     }
+     .headline1 {
+         color: #EEF4D4;
+     }
+     #main_weather {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/800x500/7-Idaho-Falls-Temple-1375367.jpg");
+         width: 650px;
+         margin-right: 28px;
+         text-align: center;
+         color: #EEF4D4;
+     }
+     #contactcorp {
+         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/800x500/7-Idaho-Falls-Temple-1375367.jpg");
+         width: 650px;
+         text-align: center;
+         color: #EEF4D4;
+     }
+     .homeweather {
+         display: flex;
+         flex-direction: row;
+         margin-top: 20px;
+         margin-left: 10px;
+         font-family: dongle;
+         font-size: 30px;
+     }
+     .aboutus {
+         font-family: dongle;
+         font-size: 30px;
+     }
+     .about1 {
+         text-align: center;
+         margin-bottom: 1px;
+     }
+     .about {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
  }
