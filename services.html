@@ -2,131 +2,224 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Temple Inns & Suites Website">
-    <title> Temple Inns & Suites </title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Inn - Our Services</title>
+    <meta name="description" content="Temple Inn - Services Page - Learn about the different amenities we have available in buildings" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <!-- fav -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/fav/favicon-16x16.png" />
+    <link rel="manifest" href="./images/fav/site.webmanifest" />
+    <link rel="mask-icon" href="./images/fav/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 </head>
 
-
 <body>
-    <div class="content">
-        <header>
-            <div class="header-content">
-                <div class="logo_icon">
-                    <img class="logo" src="images/logo.webp" alt="a logo of Temple Inn & Suites">
-                    <ul class="social_links">
+    <header>
+        <img src="./images/logo.png" alt="temple inn logo" />
+        <nav class="primary">
+            <button id="ham">&#9776;</button>
+            <ul id="menu" class="visuallyhidden">
+                <li><a id="home" href="./index.html">Home</a></li>
+                <li><a id="temples" href="./temples.html">Temples</a></li>
+                <li>
+                    <a id="reservation" href="./reservation.html">Reservations</a>
+                </li>
+                <li><a id="services" href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="temple-main">
+        <div class="services-container">
+            <h1>Services</h1>
+
+            <div class="services-grid">
+                <div class="free-amenities">
+                    <h3>Free Amenities</h3>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access and smart TVs</li>
+                        <li>Parking</li>
+                        <li>Temple shuttle</li>
                         <li>
-                            <a id="icon_1" href="https://web.facebook.com/victoroluwapelumi.elerunndu"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959" alt="Facebook Icon" width="60"></a>
-                        </li>
-                        <li>
-                            <a id="icon_2" href="https://mobile.twitter.com/K_h_a_l_i_D___/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302" alt="Twitter Icon" width="60"></a>
-                        </li>
-                        <li>
-                            <a id="icon_3" href="https://www.instagram.com/khalid__24__/"><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Finstagram%20icon.png?v=1633567220450" alt="Instagram Icon" width="60"></a>
+                            Family history consultation and family ordinance card service
                         </li>
                     </ul>
                 </div>
-                <div class="navigation_div">
-                    <nav>
-                        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-                        <ul id="headernav">
-                            <li><a href=" index.html">HOME</a></li>
-                            <li><a href="temple.html">TEMPLE</a></li>
-                            <li><a href="reservation.html">RESERVATION</a></li>
-                            <li><a href="services.html">SERVICES</a></li>
-                            <li><a href="attributions.html">ATTRIBUTIONS</a></li>
-                        </ul>
-                    </nav>
-                    <script src="js/menu.js"></script>
+                <div class="special-amenities">
+                    <h3>Specialized Services</h3>
+
+                    <ul>
+                        <li>
+                            Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes
+                        </li>
+                        <li>
+                            A playroom and low-cost, short-term babysitting services for the children of patrons
+                        </li>
+                        <li>
+                            Long-term stay accommodations in kitchenette suites for full-time temple missionaries
+                        </li>
+                        <li>Temple history themed reception and sitting area</li>
+                        <li>
+                            A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving
+                        </li>
+                        <li>
+                            A family search center that supports family search and ordinance work
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </header>
-        <main class="servicespage">
-            <div class="hero-page">
-                <div class="hero-image-1">
-                    <div class="hero-text-1">
-                        <h1>Find out more information about various suites offered at the Temple Inn & Suites, including a form to contact us for more information. </h1>
-                        <a class="button" href="full_time_temple_missionary.html">Find Out</a>
+        </div>
 
-                    </div>
+        <div class="services-container edit">
+            <h1>Reception</h1>
+
+            <div class="services-grid">
+                <div class="free-amenities">
+                    <h3>Plated Sit-Down Dinner</h3>
+                    <ul>
+                        <li>
+                            Guests are served the same entrée with a silent vegetarian or vegan alternative.
+                        </li>
+                        <li>
+                            Guests are able to select their entrée from a menu, which is typically a meat or fish option plus a silent vegetarian option.
+                        </li>
+                        <li>
+                            Guests pre-select their entrée choice when they submit their RSVP.
+                        </li>
+                    </ul>
                 </div>
-                <div class="hero-image-2">
-                    <div class="hero-text-2">
-                        <h1> Find out more information about wedding reception accommodations at the Temple Inn & Suites, including options for food services and setup.</h1>
-                        <a class="button" href="reception.html">Find Out</a>
-                    </div>
+                <div class="special-amenities">
+                    <h3>Self-Serve Stations</h3>
+
+                    <ul>
+                        <li>Like buffets, stations lend themselves nicely to photos.</li>
+                        <li>
+                            Stations are a good workaround when there is a dish that would be challenging for guests at a buffet.
+                        </li>
+                        <li>
+                            Our stations encourage guests to interact and engage with each other where they are picking from different options and consulting each other about their choices.
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="services">
+        </div>
 
-                <ul>
-                    <h1>Specialized Services</h1>
-                    <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
-                    <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
-                    <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
-                    <li>Temple history themed reception and sitting area</li>
-                    <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
-                    <li>A family search center that supports family search and ordinance work</li>
-                    <li>What other ideas do you have?</li>
-                </ul>
-                <ul>
-                    <h1>Free Amenities</h1>
-                    <li>Breakfast</li>
-                    <li>Exercise/workout room</li>
-                    <li>Indoor pool</li>
-                    <li>WiFi high-speed internet access and smart TVs</li>
-                    <li>Parking</li>
-                    <li>Temple shuttle</li>
-                    <li>Family history consultation and family ordinance card service</li>
-                </ul>
-            </div>
-        </main>
-        <footer>
-            <div id="footer_address">
-                <h2 id="a">The Temple Inn & Suites</h2>
-                <h3 id="b">4840 Montgomery, Ln #320 Bethesda, MD 20814</h3>
-                <h3 id="c">info@templeinn-suites.org</h3>
-                <h3 id="d">(+234) 90-777-1659</h3>
-            </div>
-            <div id="footer_info">
-                <img id="footer_logo" class="logo" src="images/logo.webp " alt="a logo of Temple Inn & Suites " width="180 " height="180 ">
-                <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3101.41647435577!2d-77.0998123!3d38.9829903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c8fab2e17%3A0xee511a20c1d4bf68!2s4840%20Montgomery%20Ln%20%23320%2C%20Bethesda%2C%20MD%2020814%2C%20USA!5e0!3m2!1sen!2sng!4v1648255271901!5m2!1sen!2sng "
-                    width="400 " height="250 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
-                <ul id="social_links" class="social_links">
-                    <li>
-                        <a id="icon_4" href="https://web.facebook.com/victoroluwapelumi.elerunndu "><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ffacebook%20icon.png?v=1633567068959 " alt="Facebook Icon " width="40 "></a>
-                    </li>
-                    <li>
-                        <a id="icon_5" href="https://mobile.twitter.com/K_h_a_l_i_D___/ "><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Ftwitter%20icon.png?v=1633567309302 " alt="Twitter Icon " width="40 "></a>
-                    </li>
-                    <li>
-                        <a id="icon_6" href="https://www.instagram.com/khalid__24__/ "><img src="https://cdn.glitch.me/bd09ead1-a0d1-43e7-b128-c379cd1abc81%2Finstagram%20icon.png?v=1633567220450 " alt="Instagram Icon " width="40 "></a>
-                    </li>
-                </ul>
-            </div>
+        <div class="services-container edit">
+            <h1 class="make-blue">Full-time Temple Missionary</h1>
 
-            <div id="footer_bottom">
-                <a id="footerlink_1" href="https://goo.gl/maps/8jA6hnA1fk7M21oe8">Location Map</a>
-                <a id="footerlink_2" href="contact_us.html"> Contact Us Form</a>
-                <p id="footerlink_3">&copy;<span id="year ">2022</span> The Temple Inn & Suites </p>
+            <div class="services-grid">
+                <div class="reservation-room">
+                    <img src="./images/single.jpg" alt="single bed" loading="lazy" />
+                    <h3>Single</h3>
+                    <ul>
+                        <li>One Bed</li>
+                        <li>Free Wifi</li>
+                        <li>No Kitchen</li>
+                    </ul>
+                </div>
+                <div class="reservation-room">
+                    <img src="./images/double.jpg" alt="double bed" loading="lazy" />
+
+                    <h3>Double</h3>
+
+                    <ul>
+                        <li>Two Beds</li>
+                        <li>Free Wifi</li>
+                        <li>No Kitchen</li>
+                    </ul>
+                </div>
+
+                <div class="reservation-room">
+                    <img src="./images/quad.jpg" alt="quad bed" loading="lazy" />
+
+                    <h3>Quad</h3>
+
+                    <ul>
+                        <li>Four Beds</li>
+                        <li>Free Wifi</li>
+                        <li>With Kitchen</li>
+                    </ul>
+                </div>
+
+                <div class="reservation-room">
+                    <img src="./images/king.jpg" alt="king bed" loading="lazy" />
+
+                    <h3>King</h3>
+
+                    <ul>
+                        <li>KIng-Sized Bed</li>
+                        <li>Free Wifi</li>
+                        <li>With Kitchen & Jacuzzi</li>
+                    </ul>
+                </div>
             </div>
-            <hr id="footer_line">
-            <section id="footer_last">
-                <p id="last_modified">Last Modified: <span id="lastModified "></span>
-                    <script>
-                        const d = new Date();
-                        document.getElementById("lastModified ").innerHTML = d;
-                    </script>
-                </p>
-            </section>
-        </footer>
-    </div>
+        </div>
+
+        <div class="contact-container">
+            <h2>Want More Information?</h2>
+            <a href="#contact-section">Contact Us</a>
+        </div>
+    </main>
+
+    <footer id="contact-section">
+        <div class="footer-container">
+            <div class="footer-form">
+                <h3>Contact Us</h3>
+                <form action="./thankyou.html" method="get">
+                    <label>
+              FULL-NAME <input type="text" name="fullname" required
+            /></label>
+                    <label> E-MAIL <input type="email" name="email" required /></label>
+                    <label>
+              YOUR MESSAGE
+              <textarea
+                name="contact-message"
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+            </label>
+                    <input class="footer-form-button" type="submit" value="Send Message" />
+                </form>
+            </div>
+            <div class="footer-address-display">
+                <h3>Temple Inn & Suites</h3>
+                <div class="footer-socials">
+                    <a href="http://facebook.com" target="_blank"><img src="./images/fb-icon.png" alt="facebook" /></a>
+                    <a href="http://instagram.com" target="_blank"><img src="./images/insta-icon.png" alt="instagram" /></a>
+                </div>
+                <div class="footer-address">
+                    <img src="./images/location-icon.png" alt="location" />
+                    <p>
+                        Temple Inn & Suites Headquarters 355 Wisconsin Avenue Bethesda, MD 20814
+                    </p>
+                </div>
+                <div class="footer-phone">
+                    <img src="./images/phone-icon.png" alt="phone" />
+                    <p>215-529-9999</p>
+                </div>
+            </div>
+            <p class="copyright">
+                <span id="copyright-year"> ©2020 </span> | Ojo-Osasere Marcus | WDD230
+            </p>
+            <p class="weather">
+                <a href="./attribution.html">Attribution Page</a>
+            </p>
+        </div>
+    </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

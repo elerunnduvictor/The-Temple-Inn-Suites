@@ -1,475 +1,184 @@
- @media (min-width:60em) {
-     nav ul {
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-     }
-     nav ul li a {
-         justify-items: center;
-         font-family: dongle;
-         font-size: 40px;
-         font-weight: 700;
-     }
-     nav button {
-         display: none;
-     }
-     #hamburgerBtn span:nth-child(1) {
-         display: none;
-     }
-     #hamburgerBtn span:nth-child(2) {
-         display: none;
-     }
-     #hamburgerBtn.open span:nth-child(1) {
-         display: none;
-     }
-     #hamburgerBtn.open span:nth-child(2) {
-         display: none;
-     }
-     .logo {
-         border-radius: 100px;
-         width: 180px;
-         height: 180px;
-         align-self: flex-start;
-         margin-top: 20px;
-         margin-left: 130px;
-     }
-     header {
-         background-image: url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg");
-         width: 1380px;
-     }
-     #headernav {
-         margin-bottom: 140px;
-     }
-     #headernav li a {
-         color: #EEF4D4;
-         border: none;
-         text-decoration: none;
-         align-items: center;
-         justify-content: center;
-         margin: 40px;
-         font-family: dongle;
-         font-size: 40px;
-         font-weight: 700;
-         transition: 0.3s;
-         border-radius: 35px;
-     }
-     #headernav li a:hover {
-         background-color: #20A39E;
-         color: rgb(13, 68, 65);
-         transition: 0.3s;
-     }
-     .social_links {
-         display: flex;
-         flex-direction: row;
-         align-items: flex-end;
-         margin-left: 800px;
-         margin-bottom: 40px;
-         margin-top: -130px;
-     }
-     #icon_1,
-     #icon_2,
-     #icon_3 {
-         padding: 20px;
-     }
-     footer {
-         background-image: url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/bern-switzerland-temple-lds-784288-wallpaper.jpg");
-         width: 1380px;
-         font-family: dongle;
-         font-size: 28px;
-         font-weight: 100;
-         color: #EEF4D4;
-     }
-     #footer_address {
-         margin-top: 10px;
-         margin-bottom: 10px;
-         text-align: center;
-         margin-right: 150px;
-     }
-     #a,
-     #b,
-     #c,
-     #d {
-         margin-top: 1px;
-         margin-bottom: 1px;
-     }
-     .google_map {
-         margin-left: 110px;
-     }
-     #footer_logo {
-         margin-left: 130px;
-     }
-     #social_links {
-         margin-left: 800px;
-     }
-     #icon_4,
-     #icon_5,
-     #icon_6 {
-         margin: 5px;
-         margin-left: 70px;
-     }
-     #footer_bottom {
-         display: flex;
-         flex-direction: row;
-         margin-bottom: 1px;
-         justify-content: center;
-     }
-     #footerlink_3 {
-         margin: 140px;
-         margin-top: 1px;
-         margin-bottom: 1px;
-     }
-     #footerlink_1,
-     #footerlink_2 {
-         margin: 140px;
-         margin-top: 1px;
-         margin-bottom: 1px;
-         text-decoration: none;
-         color: #EEF4D4;
-     }
-     #footerlink_2:hover {
-         color: #20A39E;
-     }
-     #footerlink_1:hover {
-         color: #20A39E;
-     }
-     #last_modified {
-         margin-bottom: 0px;
-         margin-top: 0px;
-         text-align: center;
-     }
-     /*------ For Contact Us and Reservation Page ------*/
-     .contact_header {
-         margin-top: -100px;
-     }
-     .text,
-     .tel,
-     .email,
-     .url,
-     .fname,
-     .lname,
-     .address1,
-     .address2,
-     .city,
-     .state,
-     .zip,
-     .text_7 {
-         border-radius: 10px;
-         width: 300px;
-         margin: 15px;
-     }
-     .lname {
-         margin-left: 77px;
-     }
-     .fname {
-         margin-left: 75px;
-     }
-     .address1 {
-         margin-left: 87px;
-     }
-     .address2 {
-         margin-left: 102px;
-     }
-     .email {
-         margin-left: 135px;
-     }
-     .tel {
-         margin-left: 87px;
-     }
-     .city {
-         margin-left: 144px;
-     }
-     .state {
-         margin-left: 25px;
-     }
-     .text_7 {
-         margin-left: 122px;
-     }
-     #StartDate,
-     #EndDate {
-         margin-bottom: 15px;
-         margin-top: 15px;
-     }
-     #StartDate {
-         margin-left: 20px;
-     }
-     #EndDate {
-         margin-left: 34px;
-     }
-     .dropdown1 {
-         margin-left: 38px;
-         margin-bottom: 15px;
-     }
-     .dropdown2 {
-         width: 460px;
-     }
-     #description {
-         width: 560px;
-         border-radius: 10px;
-     }
-     .submitBtn {
-         margin-left: 440px;
-     }
-     .contact_main {
-         width: 1000px;
-         margin-left: 180px;
-     }
-     /*------------------ for services page--------------- */
-     .hero-image-1 {
-         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-         margin: 20px;
-         width: 1200px;
-         height: 400px;
-     }
-     .hero-text-1 {
-         text-align: center;
-         color: #EEF4D4;
-         font-family: dongle;
-         font-size: 25px;
-     }
-     .hero-image-2 {
-         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2372132/pexels-photo-2372132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-         margin: 20px;
-         width: 1200px;
-         height: 400px;
-     }
-     .hero-text-2 {
-         text-align: center;
-         color: #EEF4D4;
-         font-family: dongle;
-         font-size: 25px;
-     }
-     .hero-page {
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-         margin-top: -120px;
-         margin-bottom: 10px;
-     }
-     .button {
-         padding: 10px;
-         font-size: 35px;
-         text-decoration: none;
-         border: 1px solid grey;
-         color: black;
-         background-color: #EEF4D4;
-     }
-     .button:hover {
-         background-color: #20A39E;
-         color: #EEF4D4;
-     }
-     .services {
-         font-family: dongle;
-         font-size: 30px;
-         margin-left: 20px;
-     }
-     /*----------- TEMPLE PRIMARY CSS --------------*/
-     .directory_main {
-         display: flex;
-         flex-direction: column;
-         text-align: center;
-     }
-     #switchview {
-         margin-bottom: 50px;
-         margin-right: 220px;
-     }
-     .directoryhead {
-         font-size: 80px;
-         margin-top: -100px;
-         margin-right: 210px;
-     }
-     #cardbutton {
-         width: 50px;
-         height: 50px;
-         background-color: #EEF4D4;
-         border-radius: 5px;
-         margin-right: 10px;
-     }
-     #cardbutton:hover {
-         background-color: rgb(13, 68, 65);
-     }
-     #listbutton {
-         width: 50px;
-         height: 50px;
-         background-color: #EEF4D4;
-         border-radius: 5px;
-     }
-     #listbutton:hover {
-         background-color: rgb(13, 68, 65);
-     }
-     .cardview {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr 1fr 1fr;
-         grid-gap: 0px;
-     }
-     .cardview section {
-         font-family: dongle;
-         color: #EEF4D4;
-         font-size: 30px;
-         background-color: rgb(13, 68, 65);
-         border: 2px solid grey;
-         border-radius: 10px;
-         margin-top: 10px;
-         height: 1600px;
-         width: 650px;
-     }
-     .cardview section:hover {
-         background-color: #498BA6;
-     }
-     .cardview section img {
-         margin-top: 35px;
-         width: 600px;
-         height: 350px;
-     }
-     /* ---- for LIST View ---- */
-     .listview section p5 {
-         display: none;
-     }
-     .listview section {
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         margin-top: 0px;
-         margin-bottom: 0px;
-     }
-     body>main>div>section:nth-child(3) {
-         display: block;
-     }
-     .listview section:nth-child(3) {
-         display: flex;
-     }
-     .listview section img {
-         display: none;
-     }
-     .listview section p7 {
-         display: none;
-     }
-     .listview section p1 {
-         font-size: 25px;
-         font-weight: 900;
-         display: block;
-     }
-     .listview section p2 {
-         font-size: 28px;
-         font-weight: 900;
-         display: block;
-         margin-right: 30px;
-     }
-     .listview section p3 {
-         font-size: 26px;
-         font-weight: 900;
-     }
-     .listview section p4 {
-         font-size: 26px;
-         font-weight: 500;
-     }
-     .listview section p6 {
-         font-size: 25px;
-         font-weight: 900;
-         padding-right: 5px;
-         display: block;
-     }
-     .listview section h2 {
-         padding-left: 5px;
-     }
-     .listview section:nth-of-type(odd) {
-         background-color: #EEF4D4;
-         width: 100%;
-         border-radius: 10px;
-     }
-     /* ---- FOR RECEPTION PAGE ---- */
-     .receptionpage {
-         font-family: dongle;
-         font-size: 27px;
-     }
-     #receptionheader {
-         font-size: 30px;
-         text-align: center;
-         margin-top: -90px;
-     }
-     .venuecontent,
-     .cateringcontent {
-         margin-left: 40px;
-     }
-     #contactp {
-         margin-left: 40px;
-     }
-     .receptionpics {
-         display: flex;
-         flex-direction: row;
-     }
-     .cateringpics {
-         display: flex;
-         flex-direction: row;
-     }
-     .image1,
-     .image2,
-     .image3,
-     .image4 {
-         width: 600px;
-         height: 400px;
-         margin-right: 50px;
-     }
-     /* ---- FOR TEMPLE MISSIONARY PAGE ---- */
-     .missionarypage {
-         font-family: dongle;
-         font-size: 30px;
-     }
-     .missionarypics {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         margin-left: 50px;
-     }
-     /* ---- FOR TEMPLE HOME PAGE ---- */
-     .homeheadline {
-         font-family: dongle;
-         font-size: 30px;
-         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/800x500/brigham-city-temple-lds-1027480-wallpaper.jpg");
-         width: 1330px;
-         height: 400px;
-         margin-top: -120px;
-         margin-left: 10px;
-         text-align: center;
-     }
-     .headline {
-         color: #EEF4D4;
-         margin-left: 70px;
-         margin-right: 70px;
-     }
-     .headline1 {
-         color: #EEF4D4;
-     }
-     #main_weather {
-         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/800x500/7-Idaho-Falls-Temple-1375367.jpg");
-         width: 650px;
-         margin-right: 28px;
-         text-align: center;
-         color: #EEF4D4;
-     }
-     #contactcorp {
-         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/800x500/7-Idaho-Falls-Temple-1375367.jpg");
-         width: 650px;
-         text-align: center;
-         color: #EEF4D4;
-     }
-     .homeweather {
-         display: flex;
-         flex-direction: row;
-         margin-top: 20px;
-         margin-left: 10px;
-         font-family: dongle;
-         font-size: 30px;
-     }
-     .aboutus {
-         font-family: dongle;
-         font-size: 30px;
-     }
-     .about1 {
-         text-align: center;
-         margin-bottom: 1px;
-     }
-     .about {
-         margin-left: 10px;
-         margin-right: 10px;
-     }
- }
+@media only screen and (min-width: 1080px) {
+    header img {
+        width: 32px;
+        padding: 0 60px;
+    }
+    #ham {
+        display: none;
+    }
+    header {
+        padding: 20px 15px;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul a {
+        color: #fff;
+        text-decoration: none;
+    }
+    #menu {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background-color: transparent;
+        margin: 0;
+    }
+    .visuallyhidden {
+        opacity: 1;
+    }
+    ul li a {
+        border-top: 3px solid rgba(255, 255, 255, 0);
+        border-bottom: 3px solid rgba(255, 255, 255, 0);
+        color: white;
+        background-color: transparent;
+    }
+    ul li a:hover {
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        color: white;
+        background-color: transparent;
+    }
+    ul li .active {
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+        color: white;
+        background-color: transparent;
+    }
+    div.hero {
+        height: 802px;
+    }
+    .transhero {
+        width: 643px;
+    }
+    .hero-socials {
+        padding-left: 85px;
+    }
+    .transhero h1 {
+        font-size: 50px;
+        padding-left: 85px;
+    }
+    .transhero h2 {
+        font-size: 26px;
+        padding-left: 85px;
+        margin: -45px 0 0 0;
+    }
+    .transhero p {
+        padding-left: 85px;
+    }
+    .weather-container {
+        height: 148px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .todays-date h3 {
+        font-size: 62px;
+    }
+    .todays-date h4 {
+        font-size: 24px;
+        margin: -55px 0 0 0;
+    }
+    .weather-underline {
+        height: inherit;
+    }
+    .todays-temp h4 {
+        font-size: 45px;
+        margin: 30px 0 0 0;
+    }
+    .todays-temp :nth-child(2) {
+        margin: -5px 0 0 0;
+        font-size: 15px;
+    }
+    .todays-temp :nth-child(3) {
+        margin: 1px 0 0 0;
+        font-size: 15px;
+    }
+    .weather-future {
+        padding: 0;
+    }
+    .next-day h4 {
+        font-size: 21px;
+        margin: 35px 0 0 0;
+    }
+    .next-day h5 {
+        font-size: 27px;
+        margin: 0;
+    }
+    .next-day p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .temple-trans-banner {
+        left: 50%;
+        width: 400px;
+    }
+    .temple-trans-banner h3 {
+        font-size: 33px;
+    }
+    .temple-trans-banner p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .reserve-trans-banner {
+        height: 336px;
+        left: 0;
+        width: 600px;
+        height: 200px;
+        padding: 45px 65px 55px 65px;
+    }
+    .reserve-trans-banner h3 {
+        font-size: 33px;
+    }
+    .reserve-trans-banner p {
+        font-size: 17px;
+    }
+    .make-reservation {
+        font-size: 22px;
+    }
+    /* <!-- ------------------------------Footer------------------------ --> */
+    .footer-container {
+        width: 1080px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    /* <!-- ------------------------------Temple Page------------------------ --> */
+    .temples-container h1 {
+        font-size: 60px;
+        margin-bottom: 88px;
+    }
+    .temples-container {
+        width: 1080px;
+    }
+    .temple-cards-grid {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 88px;
+    }
+    .temple-details {
+        height: 715px;
+    }
+    /* <!-- ------------------------------Reservation Page------------------------ --> */
+    .temple-reservation-form-container {
+        width: 800px;
+    }
+    .reservation-container {
+        padding-top: 118px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .reservation-form {
+        padding-left: 100px;
+    }
+    /* <!-- ------------------------------Services Page------------------------ --> */
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+        width: 800px;
+    }
+    .services-container {
+        width: 1000px;
+    }
+    .contact-container {
+        width: 700px;
+    }
+    .edit {
+        margin-top: 0;
+    }
+}

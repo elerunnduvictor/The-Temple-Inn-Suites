@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Temple Inn - Make A Reservation</title>
-    <meta name="description" content="Temple Inn - Reservation Page- Learn more about our rooms in various locations around the temples" />
+    <title>Temple Inn - View Temples</title>
+    <meta name="description" content="Temple Inn - Temples Page - Learn more about temples that surround our buildings" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -30,78 +30,19 @@
             <button id="ham">&#9776;</button>
             <ul id="menu" class="visuallyhidden">
                 <li><a id="home" href="./index.html">Home</a></li>
-                <li><a id="temples" href="./temples.html">Temples</a></li>
-                <li><a id="reservation" href="#">Reservations</a></li>
+                <li><a id="temples" href="#">Temples</a></li>
+                <li>
+                    <a id="reservation" href="./reservation.html">Reservations</a>
+                </li>
                 <li><a id="services" href="./services.html">Services</a></li>
             </ul>
         </nav>
     </header>
     <main id="temple-main">
-        <div class="reservation-container">
-            <h1>Reservation</h1>
+        <div class="temples-container">
+            <h1>Temples</h1>
 
-            <div class="temple-reservation-form-container">
-                <h3>Reservation Form</h3>
-                <form class="reservation-form" action="./reserved.html" method="get">
-                    <label>
-              First Name
-              <input
-                type="text"
-                name="firstname"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-                    <label>
-              Last Name
-              <input
-                type="text"
-                name="lastname"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-                    <label> E-mail <input type="email" name="email" required /></label>
-                    <label>
-              Phone Number
-              <input type="tel" name="telephone" pattern="^[0-9]{5,}$" required
-            /></label>
-                    <label>
-              Home Town
-              <input
-                type="text"
-                name="hometown"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-                    <label>
-              Temple Location
-              <select class="form-temple-list" name="temples">
-                <option value="aba">Aba</option>
-                <option value="accra">Accra</option>
-                <option value="johannesburg">Johannesburg</option>
-                <option value="curitiba">Curitiba</option>
-              </select></label
-            >
-            <label> Date <input type="date" name="date" required /></label>
-                    <label>
-              Type of Room
-              <select class="form-temple-list" name="rooms">
-                <option value="single">Single</option>
-                <option value="double">Double</option>
-                <option value="quad">Quad</option>
-                <option value="king">King</option>
-              </select></label
-            >
-            <label>
-              Number Of Rooms
-              <input type="number" value="1" name="roomnumbers" required
-            /></label>
-
-                    <label>Reservation Comment
-              <textarea name="reservationcomment" cols="30" rows="5"></textarea>
-            </label>
-                    <input class="reservation-button" type="submit" value="Make Reservation" />
-                </form>
-            </div>
+            <div class="temple-cards-grid"></div>
         </div>
     </main>
     <footer>
@@ -151,6 +92,7 @@
         </div>
     </footer>
     <script src="./js/menu.js"></script>
+    <script src="./js/temples.js"></script>
 </body>
 
 </html>
