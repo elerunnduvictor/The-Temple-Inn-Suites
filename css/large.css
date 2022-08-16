@@ -176,6 +176,7 @@
     .services-grid {
         grid-template-columns: 1fr 1fr;
         width: 800px;
+        margin-left: 78px;
     }
     .services-container {
         width: 1000px;
