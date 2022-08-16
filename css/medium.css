@@ -8,6 +8,7 @@
         padding: 55px 0 0 0;
         background: rgba(0, 61, 121, 0.9);
         border-radius: 0px 292px 0px 0px;
+        margin-left: 40px;
     }
     .hero-socials {
         padding-left: 35px;
@@ -52,22 +53,24 @@
         margin-top: 0;
     }
     .temple-trans-banner {
-        left: 10%;
-        width: 350px;
+        left: 19%;
+        width: 360px;
         padding: 45px 65px;
     }
     .temple-trans-banner h3 {
         font-size: 30px;
+        text-align: center;
     }
     .temple-trans-banner p {
         font-size: 15px;
         line-height: 29px;
+        text-align: center;
     }
     .reserve-trans-banner {
         height: 436px;
         top: 100px;
         left: 1%;
-        width: 420px;
+        width: 450px;
         height: 220px;
         padding: 45px 15px 55px 15px;
     }

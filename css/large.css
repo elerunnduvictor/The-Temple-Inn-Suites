@@ -54,6 +54,9 @@
     .hero-socials {
         padding-left: 85px;
     }
+    .transhero {
+        margin-left: 63px;
+    }
     .transhero h1 {
         font-size: 50px;
         padding-left: 85px;
@@ -108,15 +111,17 @@
         margin: 0;
     }
     .temple-trans-banner {
-        left: 50%;
-        width: 400px;
+        left: 23%;
+        width: 610px;
     }
     .temple-trans-banner h3 {
         font-size: 33px;
+        text-align: center;
     }
     .temple-trans-banner p {
         font-size: 17px;
         line-height: 29px;
+        text-align: center;
     }
     .reserve-trans-banner {
         height: 336px;
